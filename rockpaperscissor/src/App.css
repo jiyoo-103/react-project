@@ -1,0 +1,53 @@
+.box {
+  border: 1px solid black;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+.item-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.win {
+  border: 10px solid green;
+  color: green;
+}
+
+.lose {
+  border: 10px solid red;
+  color: red;
+}
+
+.tie {
+  border: 10px solid black;
+  color: black;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .win,
+  .lose,
+  .tie {
+    border-width: 6px;
+  }
+
+  button {
+    width: 80%;
+    max-width: 260px;
+  }
+}
