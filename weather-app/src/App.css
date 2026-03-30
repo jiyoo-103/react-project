@@ -1,0 +1,45 @@
+html,
+body,
+#root{
+ height: 100%;
+}
+
+body{
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image: url('https://static.vecteezy.com/system/resources/thumbnails/057/422/750/small/a-bright-sky-with-sunlight-and-fluffy-clouds-evoking-a-serene-and-uplifting-atmosphere-photo.jpeg');
+}
+.weather-card{
+ background-color: rgba(0, 255, 204, 0.25);
+ padding: 50px;
+ border: 2px solid #fff;
+ border-radius: 20px;
+ max-width: 700px;
+ width:100%;
+ height: 300px;
+}
+.main-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ min-height: 100vh;
+}
+.menu-container{
+ display: flex;
+ justify-content: center;
+ background-color: rgba(135, 206, 235, 0.55);
+ border-radius: 60px;
+ max-width: 700px;
+ width:100%;
+ padding: 30px;
+ margin-top: 30px;
+
+}
+.menu-container Button{
+ margin-right:30px;
+}
+
+.menu-container Button:hover{
+ background-color: #ffc107;
+}
